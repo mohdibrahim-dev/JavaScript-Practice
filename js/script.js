@@ -112,3 +112,71 @@ const dict = {
 console.log(dict);
 console.log(dict.yakka);                          // only meaning of Single word yakka.
 console.log(dict['yakka'])                        // it also print only single word meaning (both are sintax to print single key value pair in large list.)
+
+
+
+
+// ===========================================  Operators is js ===========================================
+console.log("Operators in js");
+
+//Arithmetic Operators
+
+let a4 = 45;
+let b4 = 4;
+console.log("a4 + b4 = " , a4+b4);                         //Add 2 number.
+console.log("a4 - b4 = " , a4-b4);                         // subtract 2 number.
+console.log("a4 * b4 = " , a4*b4);                         // multiply 2 number.
+console.log("a4 / b4 = " , a4/b4);                         // Divide 2 number.
+console.log("a4 ** b4 = " , a4**b4);                       // it give power and multiply. Eg:  45⁴.
+console.log("a4 % b4 = " , a4%b4);                         // it divide 2 number and give Remander of this 2 nomber.
+
+console.log("a4 ++  = " , a4++);                            // it print the actual number then increase the number with 1 and save increase number.
+console.log("real value after ++", a4);                    // it print real number after increment .
+console.log("a4 --  = " , a4--);                          // it print the actual number then Decrease the number with 1 and save decrease number.
+console.log("real value after --", a4);                  //  it print real number after decrease.
+
+console.log("++a4  = " , ++a4);                         // it increase the number by 1 then print it .
+console.log("--a4  = " , --a4);                        // it Decrease the number by 1 then print it .
+
+
+
+
+// Assignment Operators
+
+
+let assignment = 1;
+assignment += 5                      // same as assignment = assignment + 5
+
+console.log("a is now =", assignment);
+assignment -= 5                     //  same as assignment = assignment - 5
+console.log("a is now =", assignment);
+
+assignment *= 5                     // same as assignment = assignment * 5
+console.log("a is now = ", assignment);
+
+assignment /= 5                     // same as assignment = assignment / 5
+console.log("a is now = ", assignment);
+
+
+
+// ===================================== Comparison operators ===================================== 
+
+console.log("Comparison operators");
+
+let comp1 = 6;
+let comp2 = "6";
+console.log("comp1 == comp2 is ", comp1 == comp2);
+console.log("comp1 != comp2 is ", comp1 != comp2);
+console.log("comp1 === comp2 is ", comp1 == comp2);
+console.log("comp1 !== comp2 is ", comp1 != comp2);
+
+
+
+// ===================================== Comparison operators ===================================== 
+
+console.log("Logical Operator");
+
+let x = 5;
+let y = 6;
+console.log(x<y && x==5);                       // it check LHS and RHS is true then it return True .
+console.log(x<y || x==5);
