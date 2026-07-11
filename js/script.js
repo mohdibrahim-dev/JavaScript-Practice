@@ -179,4 +179,6 @@ console.log("Logical Operator");
 let x = 5;
 let y = 6;
 console.log(x<y && x==5);                       // it check LHS and RHS is true then it return True .
-console.log(x<y || x==5);
+console.log(x<y || x==5);                      //  it check if any condition is true then it return true.
+console.log(!false);                           // it make it false to true.
+console.log(!true);                            // it make true to false.   
